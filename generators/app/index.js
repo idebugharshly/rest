@@ -10,7 +10,7 @@ module.exports = yeoman.Base.extend({
     var that = this;
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the slick ' + chalk.red('generator-rest') + ' generator!'
+      'Welcome to the slick ' + chalk.red('generator-newrest') + ' generator!'
     ));
 
     return this.prompt([{
@@ -50,7 +50,7 @@ module.exports = yeoman.Base.extend({
         'facebook',
         'github',
         'google',
-        {name: 'twitter', disabled: 'Soon - PRs are welcome (see: https://github.com/diegohaz/generator-rest/issues/8)'}
+        {name: 'twitter', disabled: 'Soon - PRs are welcome (see: https://github.com/idebugharshly/generator-newrest/issues/8)'}
       ],
       when: function (props) {
         return props.generateAuthApi;

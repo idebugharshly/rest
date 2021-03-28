@@ -1,13 +1,13 @@
 # rest [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > RESTful API generator using NodeJS, Express and Mongoose
 
-📹 [Watch this video](https://www.youtube.com/watch?v=6x-ijyG-ack) for an overview on how to use **generator-rest** and deploy your project to [Heroku](https://heroku.com).
+📹 [Watch this video](https://www.youtube.com/watch?v=6x-ijyG-ack) for an overview on how to use **generator-newrest** and deploy your project to [Heroku](https://heroku.com).
 
 <br>
 <hr>
 <p align="center">
 If you find this useful, please don't forget to star ⭐️ the repo, as this will help to promote the project.<br>
-Follow me on <a href="https://twitter.com/diegohaz">Twitter</a> and <a href="https://github.com/diegohaz">GitHub</a> to keep updated about this project and <a href="https://github.com/diegohaz?tab=repositories">others</a>.
+Follow me on <a href="https://twitter.com/idebugharshly">Twitter</a> and <a href="https://github.com/idebugharshly">GitHub</a> to keep updated about this project and <a href="https://github.com/idebugharshly?tab=repositories">others</a>.
 </p>
 <hr>
 <br>
@@ -20,23 +20,23 @@ Follow me on <a href="https://twitter.com/diegohaz">Twitter</a> and <a href="htt
  - **User registration API** - Using [passport](http://passportjs.org/) (optional)
  - **Social login API** - Facebook, Google and GitHub (optional)
  - **Password reset API** - Sending emails with [SendGrid API](https://sendgrid.com/docs/API_Reference/index.html) (optional)
- - **Listing query strings** - `q`, `page`, `limit`, `fields` etc. already provided by [querymen](https://github.com/diegohaz/querymen)
- - **Query string validator** - Using [querymen](https://github.com/diegohaz/querymen)
- - **Request body validator** - Using [bodymen](https://github.com/diegohaz/bodymen)
- - **Standard error responses** - Using [querymen](https://github.com/diegohaz/querymen) and [bodymen](https://github.com/diegohaz/bodymen) error handlers
+ - **Listing query strings** - `q`, `page`, `limit`, `fields` etc. already provided by [querymen](https://github.com/idebugharshly/querymen)
+ - **Query string validator** - Using [querymen](https://github.com/idebugharshly/querymen)
+ - **Request body validator** - Using [bodymen](https://github.com/idebugharshly/bodymen)
+ - **Standard error responses** - Using [querymen](https://github.com/idebugharshly/querymen) and [bodymen](https://github.com/idebugharshly/bodymen) error handlers
  - **Unit and integration tests** - Using [Jest](https://github.com/facebook/jest)
  - **Continuous integration support** - Using [Travis CI](https://travis-ci.org/)
  - **API docs generator** - Using [apidoc](http://apidocjs.com/)
  - **WebSockets** - Using [primus](https://github.com/primus/primus)
- - **Love ♥** - Using [me](https://github.com/diegohaz)
+ - **Love ♥** - Using [me](https://github.com/idebugharshly)
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-rest using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-newrest using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-rest
+npm install -g generator-newrest
 ```
 
 ## Generators
@@ -243,16 +243,16 @@ PRs are welcome.
 
 ## Credits
 
-[@QzSG](https://github.com/QzSG) and all [contributors](https://github.com/diegohaz/generator-rest/graphs/contributors)
+[@QzSG](https://github.com/QzSG) and all [contributors](https://github.com/idebugharshly/generator-newrest/graphs/contributors)
 
 ## License
 
-MIT © [Diego Haz](https://github.com/diegohaz)
+MIT © [Diego Haz](https://github.com/idebugharshly)
 
 
-[npm-image]: https://badge.fury.io/js/generator-rest.svg
-[npm-url]: https://npmjs.org/package/generator-rest
-[travis-image]: https://travis-ci.org/diegohaz/rest.svg?branch=master
-[travis-url]: https://travis-ci.org/diegohaz/rest
-[coveralls-image]: https://coveralls.io/repos/diegohaz/rest/badge.svg
-[coveralls-url]: https://coveralls.io/r/diegohaz/rest
+[npm-image]: https://badge.fury.io/js/generator-newrest.svg
+[npm-url]: https://npmjs.org/package/generator-newrest
+[travis-image]: https://travis-ci.org/idebugharshly/rest.svg?branch=master
+[travis-url]: https://travis-ci.org/idebugharshly/rest
+[coveralls-image]: https://coveralls.io/repos/idebugharshly/rest/badge.svg
+[coveralls-url]: https://coveralls.io/r/idebugharshly/rest

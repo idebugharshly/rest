@@ -1,12 +1,12 @@
 {
-  "name": "generator-rest",
+  "name": "generator-newrest",
   "version": "0.17.0",
   "description": "RESTful API generator using NodeJS, Express and MongoDB. Watch https://youtu.be/6x-ijyG-ack",
-  "homepage": "https://github.com/diegohaz/generator-rest",
+  "homepage": "https://github.com/idebugharshly/generator-newrest",
   "author": {
     "name": "Diego Haz",
     "email": "hazdiego@gmail.com",
-    "url": "https://github.com/diegohaz"
+    "url": "https://github.com/idebugharshly"
   },
   "files": [
     "generators"
@@ -102,7 +102,7 @@
       "mocha": true
     }
   },
-  "repository": "diegohaz/generator-rest",
+  "repository": "idebugharshly/generator-newrest",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp",

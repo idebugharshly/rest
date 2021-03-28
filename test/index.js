@@ -190,7 +190,7 @@ function api(answers, dir) {
     .toPromise();
 }
 
-describe('generator-rest', function () {
+describe('generator-newrest', function () {
   describe('default install', function () {
     before(function (done) {
       install({}, done, true);
